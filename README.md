@@ -1,53 +1,109 @@
 # NUMBER-THEORY-CALCULATION-TOOLKIT
-Number Theory Calculator
+# Number Theory Calculator
 
-*OVERVIEW
+## Project Title
 
-A simple Python project that performs basic number theory operations such as GCD, prime generation, prime factorization, Armstrong number check, palindrome check, and Fibonacci sequence generation.
+**Number Theory Calculator**
 
-*FEATURES
+## Overview of the Project
 
-GCD of two numbers
+The Number Theory Calculator is a Python-based educational tool designed to simplify and demonstrate core concepts of number theory. It allows users to perform essential mathematical operations through a simple, intuitive interface. This project is especially useful for students, beginners in programming, and anyone exploring mathematical algorithms. By automating repetitive calculations like GCD, prime generation, and Fibonacci sequences, the tool helps learners focus on understanding the logic behind the algorithms.
 
-Prime numbers up to N
+The project is structured to be lightweight, easy to run, and free of external dependencies. It provides clean, readable code that supports academic learning, assignments, and demonstrations in the classroom.
 
-Prime factorization
+## Features
 
-Armstrong number check
+* **Greatest Common Divisor (GCD):** Computes the GCD of two numbers using efficient mathematical logic.
+* **Prime Number Generator:** Generates all prime numbers up to a user-defined range using a simple prime-checking approach.
+* **Prime Factorization:** Breaks down any integer into its prime factors, showing exponent form where applicable.
+* **Armstrong Number Checker:** Identifies whether a number is an Armstrong/Narcissistic number based on digit power sums.
+* **Palindrome Number Checker:** Determines if a number reads the same forward and backward.
+* **Fibonacci Sequence Generator:** Produces a Fibonacci sequence up to a chosen number of terms.
+* **Interactive Menu:** A user-friendly console menu to access all features conveniently.
 
-Palindrome check
+Each feature is implemented using clear Python functions, making the project easy to understand and modify.
 
-Fibonacci series
+## Technologies / Tools Used
 
+* **Python 3.x:** The primary programming language used to implement all number theory algorithms.
+* **Standard Python Libraries:** No external installations required; everything runs using built-in modules.
+* **VS Code / Any Code Editor:** Recommended for writing, editing, and testing the code.
+* **Git & GitHub (optional):** For version control and repository hosting.
 
+This makes the project accessible even for beginners who are not familiar with complex libraries or setups.
 
-*TECHNOLOGIES USED
+## Steps to Install & Run the Project
 
-Python (Standard Library only)
+1. **Download or Clone the Repository**
 
+   * If from GitHub: `git clone <repo-url>`
+   * Or download the ZIP file and extract it.
 
-*HOW TO INSTALL AND RUN
+2. **Open the Folder in Your Code Editor**
 
-Download the project folder.
-Run the script using:
-theorycalc.py
+   * VS Code recommended for easy terminal access.
 
-Follow the menu or commands in the program.
+3. **Open Terminal in the Project Directory**
 
+   * Ensure you are inside the folder where the program is located.
 
-*Testing Instructions Test each feature manually by entering sample inputs:
+4. **Run the Program**
 
-GCD: 48 & 18 → Output: 6
+5. **Choose an Option from the Menu**
 
-Primes till N: 10 → Output: 2,3,5,7
+   * The program will show a list of available operations.
+   * Enter the corresponding number to run the desired calculation.
 
-Factorization: 360 → Output: 2³ × 3² × 5
+6. **Follow On-Screen Instructions**
 
-Armstrong: 153 → True
+   * Input values as requested by each function.
+   * The program will display the result instantly.
 
-Palindrome: 1221 → True
+## Instructions for Testing
 
-Fibonacci: terms = 6 → 0,1,1,2,3,5
+Testing ensures that each feature works correctly across different inputs. You can perform manual tests such as:
 
+### GCD Testing
+
+* Input: `48` and `18` → Expected Output: `6`
+* Input: `100` and `25` → Expected Output: `25`
+* Input: `17` and `13` → Expected Output: `1` (coprime)
+
+### Prime Numbers Testing
+
+* Input: `10` → Expected Output: `2, 3, 5, 7`
+* Input: `1` → Expected Output: No primes
+* Input: `50` → Should list all primes up to 50
+
+### Prime Factorization Testing
+
+* Input: `360` → Expected Output: `2^3 × 3^2 × 5`
+* Input: `13` → Expected Output: `13` (prime number)
+* Input: `100` → Expected Output: `2^2 × 5^2`
+
+### Armstrong Number Testing
+
+* Input: `153` → Expected Output: `True`
+* Input: `370` → Expected Output: `True`
+* Input: `123` → Expected Output: `False`
+
+### Palindrome Testing
+
+* Input: `1221` → Expected Output: `True`
+* Input: `1001` → Expected Output: `True`
+* Input: `1234` → Expected Output: `False`
+
+### Fibonacci Testing
+
+* Input: `6` → Expected Output: `0, 1, 1, 2, 3, 5`
+* Input: `10` → Should display the first 10 Fibonacci numbers
+
+These tests help verify that all operations function accurately under various conditions.
+
+## Purpose of the Project
+
+This project was developed as part of a Python programming assignment. It helps learners practice loops, conditionals, number theory concepts, and function-based coding — all essential skills for mastering Python fundamentals.
+
+Feel free to expand this tool further by adding new mathematical functions or converting it into a GUI-based application in the future.
 
 NAME:- ISHAN JAIN REG NO. 25BAI11017
